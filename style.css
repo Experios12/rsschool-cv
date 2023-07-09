@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(45, 74, 74);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#name {
+    position: relative;
+    left: 250px;
+    bottom: 135px;
+    font-size: 40px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+}
+
+#Skills_list {
+    list-style-image: url(assets/img/comp.png);
+}
+
+.Con2 {
+    position: relative;
+    bottom: 7px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.Con1-2 {
+    position: relative;
+    bottom: 7px;
+    color: rgb(236, 172, 108);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.Con1 {
+color: aliceblue;
+font-weight: bold;
+}
+
+.Con1-1 {
+    color: rgb(236, 172, 108);
+}
+
+p {
+    color:  rgb(236, 172, 108);
+    align-items: center;
+}
+
+code {
+    color: rgb(236, 172, 108);
+}
+li {
+    color: rgb(236, 172, 108);
+}
+
+#RSS_logo {
+    width: 150px;
+    height: 150px;
+    margin: 0px 100px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 98, 98);
+    border-radius: 30px;
+}
+
+#MyGH {
+    position: relative;
+    max-height: 20px;
+    text-decoration: none; 
+    color: aliceblue;
+    transition: 0.5s;
+    margin: 0px 100px;
+}
+
+#MyGH:hover {
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 25px;
+}
+
+#Year {
+    position: relative;
+    margin: 0px 100px;
+}
