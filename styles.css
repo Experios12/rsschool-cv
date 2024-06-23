@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100vw;
+}
+
+body {    
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts-skills-style {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 400px;
+    gap: 30px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.anchor-link {
+    position: relative;
+    text-decoration: none;
+    color: #cd7f32;
+    font-weight: bold; 
+}
+
+.anchor-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    bottom: -2px; 
+    left: 0;
+    background-color: #cd7f32;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.anchor-link:hover::after {
+    visibility: visible;
+    width: 100%;
+}
+
+.title-of-section {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.liaison {
+    color: #ffffff;
+}
+
+.liaison-info {
+    color: #cd7f32;
+}
+
+.string-position {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.title-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-education {
+    width: 255px;
+    list-style: none;
+}
+
+.title-summary {
+    list-style: none;
+}
+
+.div-line {
+    border-bottom: 2px solid #e8e6df; 
+    width: 100%; 
+    height: 0;
+    margin-bottom: 20px;
+}
+
+.my-contacts {
+    idth: 120px;
+}
